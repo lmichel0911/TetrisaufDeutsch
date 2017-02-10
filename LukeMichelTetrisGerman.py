@@ -216,7 +216,7 @@ def runGame():
                     # Pausing the game
                     DISPLAYSURF.fill(BGCOLOR)
                     pygame.mixer.music.stop()
-                    showTextScreen('Pause') #German word pronounced Pow-sah
+                    showTextScreen('Pause') #German word pronounced Pow-sah :)
                     pygame.mixer.music.play(-1, 0.0)
                     lastFallTime = time.time()
                     lastMoveDownTime = time.time()
