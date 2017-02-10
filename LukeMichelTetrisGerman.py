@@ -181,7 +181,7 @@ def main():
         pygame.mixer.music.play(-1, 0.0)
         runGame()
         pygame.mixer.music.stop()
-        showTextScreen('Spielen ist vorbei') #Translated to play is over
+        showTextScreen('Spiel ist vorbei') #Translated to game is over, new fix
 
 
 def runGame():
