@@ -358,7 +358,7 @@ def showTextScreen(text):
     DISPLAYSURF.blit(titleSurf, titleRect)
 
     # Draw the additional "Press a key to play." text.
-    pressKeySurf, pressKeyRect = makeTextObjs('Du Beggint!', BASICFONT, TEXTCOLOR) #Translated to You Begin
+    pressKeySurf, pressKeyRect = makeTextObjs('Du Start!', BASICFONT, TEXTCOLOR) #Translated to You Shtart <- correct pronounciation
     pressKeyRect.center = (int(WINDOWWIDTH / 2), int(WINDOWHEIGHT / 2) + 100)
     DISPLAYSURF.blit(pressKeySurf, pressKeyRect)
 
